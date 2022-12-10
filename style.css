@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+}
+
+.border {
+    border: 1px solid rgba(0,0,0, 0.3);
+}
+
+.container {
+    padding: 80px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 25px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.main__logo {
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.no__cursor {
+    cursor: no-drop;
+}
+
+.no__border {
+    border: none;
+}
+
+.main__logo span {
+    padding-right: 5px;
+}
+
+.nav__part {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav__part1 {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.nav__part2 {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.nav__link {
+    background-color: black;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    background-color: black;
+}
+
+.semiround__box {
+    border-radius: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.semiround__box:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.box__wrapper {
+    display: flex;
+    height: 500px;
+}
+
+.description {
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.description h1 {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.description p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+form {
+    margin: 20px 0;
+    border-radius: 40px;
+    padding: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email__submit {
+    height: 40px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+}
+
+.description h2 {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.customers__logo {
+    margin: 10px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.main__image {
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.main__image img {
+    height: 100%;
+}
