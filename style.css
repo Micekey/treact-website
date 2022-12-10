@@ -139,10 +139,19 @@ form {
     margin: 20px 0;
     border-radius: 40px;
     padding: 5px;
+    padding-left: 25px;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.input__email {
+    color: rgba(0, 0, 0, 0.362);
 }
 
 .email__submit {
@@ -151,6 +160,10 @@ form {
     padding: 10px;
     border-radius: 40px;
     color: white;
+}
+
+.email__submit:hover {
+    cursor: pointer;
 }
 
 .description h2 {
